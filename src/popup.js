@@ -1,5 +1,4 @@
 function setDOMInfo(info) {
-  console.log(info)
   document.getElementById('counter').textContent = info.divs
 }
 

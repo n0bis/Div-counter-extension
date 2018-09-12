@@ -1,5 +1,6 @@
-chrome.runtime.onMessage.addListener(function (msg, sender) {
-  if ((msg.from === 'content') && (msg.subject === 'showPageAction')) {
-    chrome.pageAction.show(sender.tab.id)
-  }
+chrome.runtime.onMessage.addListener(
+  function (message, sender) {
+    if ((message.from === 'content') && (message.subject === 'showPageAction')) {
+      chrome.pageAction.show(sender.tab.id)
+    }
 })
