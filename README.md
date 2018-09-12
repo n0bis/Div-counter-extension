@@ -1,3 +1,3 @@
 # Div counter extension
 
-A celebration to the most awesome html tag `<div />`
+✨ A celebration to the most awesome html tag `<div />` ✨
